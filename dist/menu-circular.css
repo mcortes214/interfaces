@@ -1,0 +1,56 @@
+/* Global/componente */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --white: antiquewhite;
+    --red: #722b2b;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #722b2b;
+}
+
+
+.menu-circular {
+    display: block;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-circular > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* Fin de componente */
+
+.mi-menu {
+    list-style: none;
+}
+
+.mi-boton {
+    outline: 1px solid var(--white);
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+.mi-boton a {
+    text-decoration: none;
+    color: var(--white);
+    letter-spacing: 0.1em;
+}
